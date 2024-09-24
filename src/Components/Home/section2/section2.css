@@ -1,0 +1,223 @@
+.section2{
+    height: 72vh;
+}
+.tophead{
+    padding-top: 10px;
+    padding-left: 220px;
+    padding-right: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tophead .topleft h1{
+  margin: 0;
+  padding: 0;
+}
+.tophead .topleft h1 span{
+  
+    background: linear-gradient(90deg, #FECC00, #EF7F1A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.tophead .topleft p{
+  margin: 0;
+  padding: 0;
+    /* margin-top: -20px; */
+    font-size: 15px;
+    color: #4D4D4D;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.tophead .topright div{
+  padding: 10px 5px;
+    border: 1px solid #C7C7C7;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.tophead .topright div img{
+    width: 25px;
+    /* height: 15px; */
+    margin-right: 2px;
+    padding-left: 10px;
+}
+.tophead .topright div p{
+    font-size: 10px;
+    color: #4D4D4D;
+    font-weight: 400;
+    
+    padding-right: 10px;
+   
+}
+.studyprogram {
+    padding: 0px 220px; /* Reduced padding */
+    position: relative;
+  }
+  
+  .studybox {
+    width: 278px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0px 2px 2px 0px #00000040 inset;
+    box-shadow: 0px 2px 2px 0px #00000040;
+    /* padding-bottom: 15px; */
+  }
+  .mySwiper{
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+  
+  .studybox .likeicon {
+    position: absolute;
+    top: -20px;
+    right: 8px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .studybox .likeicon i {
+    margin-right: 2.5px;
+    margin-top: 2px;
+    color: #EF7F1A;
+    transition: all 0.3s ease;
+  }
+  
+  .studybox .likeicon:hover i {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+  
+  .studybox img {
+    width: 100%;
+  }
+  
+  .studybox .oxford {
+    padding-left: 5px;
+    font-size: 10px;
+    margin-top: 0;
+    color: #D36400;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+.studybox .msc{
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.studybox div{
+    margin-top: 30px;
+    padding-left: 3px;
+}
+.studybox div .inside-icon{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.studybox div .inside-icon i{
+    margin-right: 8px;
+    color:#D36400;
+}
+.studybox div .inside-icon p{
+    color: #4C4C4C;
+    font-weight: 400 ;
+}
+.studybox button{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #EF7F1A;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border: 1px solid #EF7F1A;
+    border-radius: 4px;
+    margin-top: 18px;
+
+}
+.studybox .bt1{
+    padding: 3px 17px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.studybox .bt2{
+    padding: 4px 10px;
+    margin-left: 32px;
+    background: #EF7F1A;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.studybox .bt2:hover{
+    background: transparent;
+    color: #EF7F1A;
+}
+.studybox button img{
+width: 12px;
+margin-right: 8px;
+
+}
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  /* background-color: #000; */
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow-left {
+  left: 180px;
+  transform: translateY(-50%);
+}
+
+.arrow-right {
+  right: 180px;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+  color: #333;
+}
+.viewcourses{
+    margin-left: 360px;
+    margin-top: 30px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+    background: #292B5B;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.viewcourses i{
+    font-size: 10px;
+    margin-left: 8px;
+}
+.viewcourses:hover{
+    background:#EF7F1A ;
+    scale: 1.2;
+}

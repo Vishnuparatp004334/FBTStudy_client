@@ -1,0 +1,65 @@
+.graybox{
+    width: 100%;
+    height: 50vh;
+    background: #F5F4F4;
+    /* margin-top: -200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graybox .insidegray-box{
+    width: 67%;
+    height: 70%;
+    background: linear-gradient(96.69deg, #FFE7AA -20.44%, #76B5FF 156.2%);
+    display: flex;
+
+}
+.gray-left{
+    width: 55%;
+    height: 100%;
+}
+.gray-left div{
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+.gray-left div h2{
+    font-weight: 600;
+    word-spacing: 1.3px;
+}
+.gray-left div p{
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.gray-left div button{
+    margin-top: 40px;
+    background: #EF7F1A;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: all .2s;
+}
+.gray-left div button img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+.gray-left div button:hover{
+    scale: 1.1;
+}
+.gray-right{
+    width: 45%;
+    height: 100%;
+    background: blue;
+}
+.gray-right img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.homesection{
+    width: 100%;
+    margin-top: 60px;
+}
+.hero{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.hero .heroimage{
+    width: 100%;
+    height: 100%;
+}
+.hero .heroimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+.hero .hero-overlay {
+    position: absolute;
+    top: 0; /* Change to align with the top of .hero */
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%; /* Use 100% to take the height of the parent (.hero) */
+}
+.hero .leftside-hero{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 220px;
+    top: 60px;
+    
+}
+.hero .leftside-hero .leftside-head{
+    font-weight: 700;
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1.2px;
+}
+.hero .leftside-hero .leftsidepara{
+    font-weight: 500;
+    font-size: 15px;
+    /* margin-top: -20px; */
+    color: #fff;
+}
+.hero .leftside-hero .count{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .leftside-hero .count .left div{
+    font-size: 25px;
+}
+.hero .leftside-hero .count .right div{
+    font-size: 25px;
+}
+.hero .leftside-hero .count .left div span{
+    background: linear-gradient(90deg, #FECC00, #EF7F1A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+.hero .leftside-hero .count .right div span{
+    background: linear-gradient(90deg, #FECC00, #EF7F1A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+.hero .leftside-hero .count .right div p{
+    font-size: 12px;
+   /* margin-top: -5px; */
+   color: #fff;
+   font-weight: 500;
+}
+.hero .leftside-hero .count .left div p{
+    font-size: 12px;
+    margin-top: -5px;
+    color: #fff;
+    font-weight: 500;
+}
+.hero .leftside-hero .count .middle img{
+    width: 10px;
+    height: 15px;
+}
+.hero .leftside-hero .explore{
+    margin-top: 50px;
+    background: #EF7F1A;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Roboto";
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    letter-spacing: 1.2;
+}
+.hero .leftside-hero .explore i{
+    font-size: 12px;
+    transition: all 0.2s ease;
+    margin-left: 2px;
+}
+.hero .leftside-hero .explore:hover{
+    background: #D36400;
+}
+.hero .leftside-hero .explore:hover i{
+    scale: 1.5;
+}
+.hero .inside-hero{
+    position: absolute;
+    top: 10px;
+    right: 220px;
+    width: 330px;
+    height: 415px;
+    background: #fff;
+    border-radius: 10px;
+    border-top: 5px solid #EF7F1A;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inside-hero .herobox-para{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 10px;
+}
+.inside-hero .herobox{
+    margin-top: 5px;
+    height: 2px;
+    width: 170px;
+    border-radius: 50%;
+    background: #D8D8D8;
+    text-align: center;
+    margin-left: 60px;
+}
+.cources{
+    width: 100%;
+    height: 50px;
+    margin-top: 6px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom:2px solid #D8D8D8 ;
+}
+.cources .cource-left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-right: 2px solid #D8D8D8;
+}
+.cources .cource-left p{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #444444;
+    font-weight: 500;
+}
+.cources .cource-left img{
+    width: 45px;
+    height: 40px;
+    
+}
+.cources .cource-right{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 10px;
+}
+.cources .cource-right p{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #444444;
+    font-weight: 500;
+}
+.cources .cource-right img{
+    width: 30px;
+    height: 40px;
+}
+.desireddegree p{
+    font-size: 12px;
+    margin-top: 8px;
+    font-weight: 500;
+    color: #000000;
+}
+.desireddegree p span{
+    color: #FF0000;
+}
+.desireddegree div{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.desireddegree div button{
+    padding: 6px 25px;
+    background: transparent;
+    border-radius: 6px;
+    border: 2px solid #EF7F1A;
+    margin-right: 30px;
+    color: #444444;
+    font-weight: 500;   
+    cursor: pointer; 
+}
+.details p{
+    font-size: 12px;
+    /* margin-top: 10px; */
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.details p span{
+    color: #FF0000;
+}
+.details input{
+    padding: 7px 8px;
+    width: 98%;
+    background: #EF7F1A;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+}
+.details input::placeholder{
+    color: #fff;
+    font-weight: 500;
+}
+.number{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.number .left{
+    display: flex;
+    align-items: center;
+    /* background: #EF7F1A; */
+    height: 30px;
+}
+.number .left .flag{
+    display: flex;
+    align-items: center;
+    background: #FECC00;
+    padding: 2.8px 8px;
+    border-radius: 5px;
+    z-index: 10;
+}
+.number .left .flag img{
+    width: 25px;
+    height: 25px;
+}
+.number .left .flag i{
+    font-size: 10px;
+    margin-left: 5px;
+    color: #fff;
+}
+.number .left p{
+    background: #EF7F1A;
+    /* width: 20px; */
+    padding: 6.5px 12px;
+    margin-left: -10px;
+    z-index: 8;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+.number .nuright input{
+    padding: 7px 8px;
+    width: 90%;
+    background: #EF7F1A;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.number .nuright input::placeholder{
+    color: #fff;
+    font-weight: 500;
+}
+.email input{
+    margin-top: 10px;
+    padding: 7px 8px;
+    width: 98%;
+    background: #EF7F1A;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+}
+.email input::placeholder{
+    color: #fff;
+    font-weight: 500;
+}
+.freecoun{
+    margin-top: 8px;
+    padding: 10px 8px;
+    width: 98%;
+    background: #292B5B;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+.lastpara{
+    margin-left: 50px;
+    width: 66%;
+    /* background: red; */
+    text-align: center;
+    font-size: 11px;
+    margin-top: 5px;
+    color: #000;
+    font-weight: 400;
+}
+.lastpara span{
+    text-decoration: underline;
+}
