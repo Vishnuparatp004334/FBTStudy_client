@@ -120,7 +120,7 @@
 }
 .hero .inside-hero{
     position: absolute;
-    top: 10px;
+    top: 16px;
     right: 220px;
     width: 330px;
     height: 415px;
@@ -278,7 +278,7 @@
 }
 .number .nuright input{
     padding: 7px 8px;
-    width: 90%;
+    width: 87%;
     background: #EF7F1A;
     border-radius: 5px;
     border: none;

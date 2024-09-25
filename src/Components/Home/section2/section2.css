@@ -2,9 +2,9 @@
     height: 72vh;
 }
 .tophead{
-    padding-top: 10px;
-    padding-left: 220px;
-    padding-right: 220px;
+  padding-top: 30px;
+  padding-left: 220px;
+  padding-right: 220px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -192,7 +192,7 @@ margin-right: 8px;
 }
 
 .arrow-right {
-  right: 180px;
+  right: 195px;
   transform: translateY(-50%);
 }
 
